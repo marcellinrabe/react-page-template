@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "http://marcellinrabe.github.io/social-network-landing-page",
+  "homepage": "https://marcellinrabe.github.io/social-network-landing-page",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
