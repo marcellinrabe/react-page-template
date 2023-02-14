@@ -9,7 +9,7 @@ export default function Register() {
     }, [])
 
     return (
-        <div className="w-96 m-auto h-screen flex flex-col">
+        <div className="w-96 px-10 m-auto h-screen flex flex-col">
             <div className="py-8 text-slate-500 text-lg">
                 <Link to="/">OPartage</Link>
             </div>

@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export default function Footer() {
     return (
         <div id="footer">
-            <div className="grid grid-cols-3 gap-6">
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
                 <div>
                     <h1 className="font-bold">Contact</h1>
                     <ul className="text-sm">

@@ -10,18 +10,17 @@ export default function RouteNotMatch() {
     return (
         <>
             <div id="error-page">
-                <div className="container flex h-screen w-screen justify-center items-center">
-                    <div className="w-1/2">
-                        <div className="flex items-center justify-center h-full">
+                <div className="grid lg:grid-cols-2 h-screen w-screen">
+                    <div className="order-2 h-full p-10">
+                        <div className="flex justify-center items-center h-full">
                             <div>
                                 <div className="my-4">
-                                    <h1>Oops!</h1>
-                                    <p>Une erreur s'est produite </p>
+                                    <h1>Oops! Une erreur s'est produite </h1>
                                     <p>
                                         { !error.status && `${error.status} ${error.statusText}`}
                                     </p>
                                 </div>
-                                <div>
+                                <div className="flex justify-center lg:justify-start">
                                     <Link
                                         to="/"
                                         className="bg-slate-600 relative
@@ -37,8 +36,8 @@ export default function RouteNotMatch() {
                             </div>
                         </div>
                     </div>
-                    <div className="w-1/2">
-                        <div className="flex items-center justify-center">
+                    <div className="p-10">
+                        <div className="h-full flex items-end lg:items-center justify-center">
                             <img
                                 className="w-2/3"
                                 src="https://svgshare.com/i/Ye7.svg"

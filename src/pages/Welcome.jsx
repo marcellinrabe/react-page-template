@@ -18,10 +18,10 @@ export default function Landing() {
     return (
         <div className="container m-auto px-8">
             <div className="my-20">
-                <h1 className="text-7xl font-bold font-title -tracking-tigh text-slate-400 text-center">
+                <h1 className="text-7xl font-bold font-title -tracking-tigh text-slate-400 md:text-center">
                     Avec le moins de dispute
                 </h1>
-                <p className="w-2/3 mx-auto my-6 text-lg">
+                <p className="md:w-2/3 mx-auto my-6 text-lg">
                     OPartage est un réseau social fait pour partager des idées
                     et cultures, non pas pour se battre à convaincre les autres
                     que la sienne est la bonne
@@ -52,10 +52,10 @@ export default function Landing() {
                 </div>
             </div>
             <Linebreak />
-            <div className="grid grid-cols-2 gap-20 items-center justify-between mx-12 text-lg">
-                <div className="p-12">
+            <div className="grid lg:grid-cols-2 md:gap-20 items-center justify-between md:mx-12 text-lg">
+                <div className="md:p-12">
                     <div className="relative">
-                        <h1 className="text-5xl font-title font-extrabold text-justify">
+                        <h1 className="text-5xl font-title font-extrabold text-center md:text-justify">
                             Contenu riche en style
                         </h1>
                         <p className="my-6">
@@ -71,22 +71,22 @@ export default function Landing() {
                         </div>
                     </div>
                 </div>
-                <div className="p-12">
-                    <div className="shadow-xl">
-                        <img src={PreviewMobileImg} alt="mobile view" />
+                <div className="md:p-12">
+                    <div className="shadow-xl w-full">
+                        <img src={PreviewMobileImg} alt="mobile view" className="cover"/>
                     </div>
                 </div>
             </div>
 
-            <div className="grid grid-cols-2 gap-20 items-center justify-between my-12 text-lg">
-                <div className="p-12">
+            <div className="grid lg:grid-cols-2 md:gap-20 items-center justify-between md:my-12 text-lg">
+                <div className="md:p-12 order-2">
                     <div className="shadow-xl">
                         <img src={PreviewDesktopImg} alt="mobile view" />
                     </div>
                 </div>
-                <div className="p-12">
+                <div className="md:p-12 order-1 lg:order-2 my-20">
                     <div className="relative">
-                        <h1 className="text-5xl font-title font-extrabold text-justify">
+                        <h1 className="text-5xl font-title font-extrabold text-center md:text-justify">
                             Le tout et rien
                         </h1>
                         <p className="my-6">

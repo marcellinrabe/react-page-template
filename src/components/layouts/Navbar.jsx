@@ -4,8 +4,8 @@ export default function Navbar() {
     return (
         <div className="py-6">
             <div
-                className="border-4 border-slate-400 rounded-full w-3/4
-             m-auto p-2"
+                className="border-4 border-slate-400 rounded-full  mx-2 md:w-3/4
+             md:m-auto p-2"
             >
                 <nav className="flex justify-between p-2">
                     <div className="text-slate-500 text-lg">
