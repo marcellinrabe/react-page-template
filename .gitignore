@@ -23,6 +23,8 @@ coverage/
 # IDE configuration files
 .idea/
 .vscode/
+.prettierrc
+.prettierrc.json
 
 # Miscellaneous
 .DS_Store
