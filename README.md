@@ -11,6 +11,6 @@ Whenever :)
 
 <div align="center">
 
-[demo](src/assets/opartage-demo.gif)
+![demo](src/assets/opartage-demo.gif)
 
 </div>
