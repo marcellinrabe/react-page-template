@@ -1,5 +1,6 @@
 import { Form, Link } from "react-router-dom";
 import { useEffect } from "react";
+import LogoImg from  "../assets/img/logo.png";
 
 
 export default function Login() {
@@ -11,12 +12,14 @@ export default function Login() {
     return (
         <div className="w-96 px-10 m-auto h-screen flex flex-col">
             <div className="py-8 text-slate-500 text-lg">
-                <Link to="/">OPartage</Link>
+                <Link to="/social-network-landing-page">
+                    <img src={LogoImg} alt="logo" className="w-24 h-12 rounded-md  hover:scale-90 transition duration-300 ease-in-out" />
+                </Link>
             </div>
             <div>
                 <div className="flex items-center">
                     <div className="w-full">
-                        <Form action="post">
+                        <Form>
                             <div className="my-4">
                                 <div className="mb-1">
                                     <label>Adresse email</label>
@@ -54,7 +57,7 @@ export default function Login() {
                                 <div className="p-4 text-center">
                                     <span>Vous n'avez pas de compte ? </span>
                                     <span className="underline text-blue-400">
-                                        <Link to="/register">S'inscrire</Link>
+                                        <Link to="/social-network-landing-page/register">S'inscrire</Link>
                                     </span>
                                 </div>
                             </div>

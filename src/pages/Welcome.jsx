@@ -28,7 +28,7 @@ export default function Landing() {
                 </p>
                 <div className="text-center my-10 text-base">
                     <Link
-                        to="/login"
+                        to="login"
                         className="m-2 bg-slate-600 relative
                          p-2 after:content-[' '] after:absolute after:w-full
                         after:top-0 after:left-0 after:h-full after:translate-x-1
@@ -39,7 +39,7 @@ export default function Landing() {
                         Se connecter
                     </Link>
                     <Link
-                        to="/register"
+                        to="register"
                         className="m-2 bg-slate-600 relative
                          p-2 after:content-[' '] after:absolute after:w-full
                         after:top-0 after:left-0 after:h-full after:translate-x-1

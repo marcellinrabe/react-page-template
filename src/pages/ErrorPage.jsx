@@ -1,6 +1,6 @@
 import { useRouteError, Link } from "react-router-dom";
 
-export default function RouteNotMatch() {
+export default function ErrorPage() {
     const error = useRouteError();
 
     if (error.status == "300") {
@@ -17,18 +17,19 @@ export default function RouteNotMatch() {
                                 <div className="my-4">
                                     <h1>Oops! Une erreur s'est produite </h1>
                                     <p>
-                                        { !error.status && `${error.status} ${error.statusText}`}
+                                        {!error.status &&
+                                            `${error.status} ${error.statusText}`}
                                     </p>
                                 </div>
                                 <div className="flex justify-center lg:justify-start">
                                     <Link
-                                        to="/"
-                                        className="bg-slate-600 relative
-                        font-bold p-2 after:content-[' '] after:absolute after:w-full
-                        after:top-0 after:left-0 after:h-full after:translate-x-1
-                        after:translate-y-1 after:bg-slate-400 after:z-[-1]
-                        after:transition-transform after:duration-500
-                        after:hover:translate-x-0 after:hover:translate-y-0 text-white"
+                                        to="/social-network-landing-page/"
+                                        className="bg-slate-600 relativefont-bold p-2 
+                                            after:content-[' '] after:absolute after:w-full
+                                            after:top-0 after:left-0 after:h-full after:translate-x-1
+                                            after:translate-y-1 after:bg-slate-400 after:z-[-1]
+                                            after:transition-transform after:duration-500
+                                            after:hover:translate-x-0 after:hover:translate-y-0 text-white"
                                     >
                                         retour à l'acceuil
                                     </Link>
