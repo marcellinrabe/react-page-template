@@ -10,7 +10,7 @@ Icons credit: Fontawesome
 Whenever :)
 
 <div align="center">
-<video width="100%" height="100%"controls>
-    <source src="./src/assets/opartage-demo.mp4" type="video/mp4" />
-</video>
+
+[demo](src/assets/opartage-demo.gif)
+
 </div>
