@@ -1,22 +1,16 @@
 # OPartage
+
 OPartage is a social network landing page template, react js app building from vite and tailwindcss. <br/>
 Icons credit: Fontawesome
 
-<br/>
-<div align="center"><h2><i>Welcome page</i></h2></div>
-<br/>
+<p>
+<b>Demo online</b> <a href="https://marcellinrabe.github.io/social-network-landing-page" target="_blank">here</a>
+</p>
 
+Whenever :)
 
-![welcome page](./src/assets/img/screenshots/welcome-page.png)
-
-<br/>
-<div align="center"><h2><i>Login page</i></h2></div>
-<br/>
-
-![login page](./src/assets/img/screenshots/login-page.png) 
-
-<br/>
-<div align="center"><h2><i>Register page</i></h2></div>
-<br/>
-
-![sign up page](./src/assets/img/screenshots/sign-up-page.png) 
+<div align="center">
+<video width="100%" height="100%"controls>
+    <source src="./src/assets/opartage-demo.mp4" type="video/mp4" />
+</video>
+</div>
