@@ -7,7 +7,7 @@ import * as Page from "./pages";
 
 const routes = [
     {
-        path: "/social-network-landing-page/",
+        path: "/react-page-template/",
         element: <App />,
         errorElement: <Page.ErrorPage />,
         children: [
